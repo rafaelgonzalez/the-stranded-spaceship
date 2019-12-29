@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb8674f3668a1924aa0eb10bb8c040b1, type: 3}
+  m_Name: A2. CheckNavigationLogs
+  m_EditorClassIdentifier: 
+  storyText: "You type a few commands in the console to run basic diagnostics.\n\nThe
+    first thing that becomes apparent is that you actually were out for a few hours.
+    \n\nThe next thing you notice is red blinking dots on the map of the ship: organic
+    hostiles on board.\n\nShit.\n\nGiven the haul in the storage room, they must
+    have been busy bringing it over the ship currently docked to yours, leaving the
+    navigation room alone.\n\nIn fact, the storage room reports sever hull damage,
+    making it impossible to go in without a suit.\n\n1. Grab your blaster start searching
+    the ship for hostiles."
+  nextStates:
+  - {fileID: 11400000, guid: 50e06d82908f0934995676a15c604d9d, type: 2}

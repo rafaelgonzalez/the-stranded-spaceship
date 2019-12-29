@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb8674f3668a1924aa0eb10bb8c040b1, type: 3}
+  m_Name: B2. KeepWalking
+  m_EditorClassIdentifier: 
+  storyText: 'You walk a short distance in the hallway. The engine room is a bit
+    further down, and your can hear a soft humming coming from it, indicating the
+    engine is still operational.
+
+
+    Then a short, hissing sound comes from straight
+    ahead, and a big nasty insect-like shape drops from the ceiling in front of you.
+
+
+    Your
+    aim is quick and you hit the bastard with one single shot from your blaster while
+    it dies in a repugnant pile of gore.
+
+
+    More hissing sounds immediatly come
+    from all around you, and you realise too late you walked into a trap. Half a
+    dozen bugs jump from the darkness and start clawing and ripping their way through
+    your clothes and skin.
+
+
+    You blast a few in the battle, but you quickly are
+    overwhelmed and drop to the floor in pain.
+
+
+    Your vision darkens, and the
+    last thing you see is your insides being pulled out of your body as it is being
+    eaten.
+
+
+    1. Try again.'
+  nextStates:
+  - {fileID: 11400000, guid: d41d276a93202e949a885fc4a80feec4, type: 2}

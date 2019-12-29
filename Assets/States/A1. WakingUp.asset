@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb8674f3668a1924aa0eb10bb8c040b1, type: 3}
+  m_Name: A1. WakingUp
+  m_EditorClassIdentifier: 
+  storyText: 'You wake up, your head pounding with intense pain.
+
+
+    With blurred
+    vision you look around and recognise the navigation room of your spaceship, as
+    your momentarily faded memory starts coming back to you.
+
+
+    You remember being
+    thrown off balance by a huge jolt. You must have hit your head and passed out
+    for a moment.
+
+
+    1. Check the navigation logs from the nearby console.
+
+    2.
+    Grab your blaster start searching the ship for hostiles.'
+  nextStates:
+  - {fileID: 11400000, guid: 52356e1b40d54e048a371e59ab5e8a0d, type: 2}
+  - {fileID: 11400000, guid: 50e06d82908f0934995676a15c604d9d, type: 2}

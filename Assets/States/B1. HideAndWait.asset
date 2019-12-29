@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb8674f3668a1924aa0eb10bb8c040b1, type: 3}
+  m_Name: B1. HideAndWait
+  m_EditorClassIdentifier: 
+  storyText: 'You hide in a corner, waiting to hear anything or detect any movement
+    coming from the dark hallway.
+
+
+    After a short time you hear a faint noise,
+    something that you eventually recognise - too late - as Xenobug mandibles.
+
+
+    Something
+    drops on you from the ceiling above, and you feel warm blood gushing from your
+    neck before the pain of sharp claws ripping through your skin.
+
+
+    Your face
+    hits the ground as you die on the cold metalic floor or the ship.
+
+
+    1. Try
+    again.'
+  nextStates:
+  - {fileID: 11400000, guid: d41d276a93202e949a885fc4a80feec4, type: 2}

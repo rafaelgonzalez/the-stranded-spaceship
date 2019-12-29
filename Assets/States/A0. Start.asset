@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb8674f3668a1924aa0eb10bb8c040b1, type: 3}
+  m_Name: A0. Start
+  m_EditorClassIdentifier: 
+  storyText: 'The Stranded Spaceship is a very short ''choose your own adventure''
+    story: at the end of each story segment, you will be asked to make a choice.
+
+
+    You
+    can make those with the 1 or 2 keys.
+
+
+    You can also quit the game at any
+    time by pressing Q.
+
+
+    Also bear in mind the story contains some profanity
+    (swear words).
+
+
+    1. Begin story.'
+  nextStates:
+  - {fileID: 11400000, guid: d41d276a93202e949a885fc4a80feec4, type: 2}

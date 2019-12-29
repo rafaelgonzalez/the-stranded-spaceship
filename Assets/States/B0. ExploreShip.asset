@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb8674f3668a1924aa0eb10bb8c040b1, type: 3}
+  m_Name: B0. ExploreShip
+  m_EditorClassIdentifier: 
+  storyText: 'You go to the doors, punch a button and they quickly slide open.
+
+
+    The
+    emergency lighting is on, showing the path through the hallway, but darkness
+    still fills most of it.
+
+
+    You take one step through the door when you are
+    immediately taken aback by an unbearable stench filling the air. You recognise
+    it immediately: Xenobugs.
+
+
+    Fuck.
+
+
+    1. Hide and wait for a while.
+
+    2.
+    Keep walking.'
+  nextStates:
+  - {fileID: 11400000, guid: cde42a88185882248898941770251e63, type: 2}
+  - {fileID: 11400000, guid: 0b00d8cf523871f41a39e05f5de13170, type: 2}
